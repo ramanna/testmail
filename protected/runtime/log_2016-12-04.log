@@ -1,0 +1,68 @@
+2016/12/04 02:35:48 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 02:35:48 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 02:35:48 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 02:35:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 02:35:49 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/12/04 02:35:49 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/12/04 20:33:50 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (85)
+in /var/www/mavpay/index.php (23)

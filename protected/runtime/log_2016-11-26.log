@@ -1,0 +1,236 @@
+2016/11/26 00:53:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [application] Exchange rates
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/controllers/SiteController.php (70)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.ar.CActiveRecord] CurrencyPairRate.findAll()
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `currency_pair_rate`
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `currency_pair_rate`
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `currency_pair_rate` `t` WHERE status = "ACTIVE"
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [application] Get Buy Sell Price Pair: BTC/INR
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (173)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:53:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT `price`, `progress`
+FROM `currency_pair_rate` `u`
+WHERE currency_pair = "BTC/INR"
+in /var/www/mavpay/protected/components/BaseClass.php (176)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`, `activity`
+FROM `systemsettings` `u`
+WHERE activity IN ("margin_BTC/INR","margin_BTC/INR")
+in /var/www/mavpay/protected/components/BaseClass.php (183)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [application] Calculate Percentage: 66000,0.2
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (134)
+in /var/www/mavpay/protected/components/BaseClass.php (197)
+2016/11/26 00:53:19 [trace] [application] Calculate Percentage: 66000,0.2
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (134)
+in /var/www/mavpay/protected/components/BaseClass.php (200)
+2016/11/26 00:53:19 [trace] [application] Pair Currency Response: 
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (206)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:53:19 [trace] [application] array
+(
+    'currency_price' => '&#8377;66000<i class=\"fa fa-arrow-up\" aria-hidden=\"true\"></i>'
+    'sell' => ': &#8377;65868.00'
+    'buy' => ': &#8377;66132.00'
+    'isEur' => 0
+)
+in /var/www/mavpay/protected/components/BaseClass.php (238)
+in /var/www/mavpay/protected/components/BaseClass.php (206)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:53:19 [trace] [application] Buy Sell Price: 
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/controllers/SiteController.php (93)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:19 [trace] [application] array
+(
+    'list' => ''
+    'price' => '&#8377;66000<i class=\"fa fa-arrow-up\" aria-hidden=\"true\"></i>'
+    'buy' => ': &#8377;66132.00'
+    'sell' => ': &#8377;65868.00'
+    'isEur' => 0
+)
+in /var/www/mavpay/protected/components/BaseClass.php (238)
+in /var/www/mavpay/protected/controllers/SiteController.php (93)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/models/Currency.php (250)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/models/Currency.php (250)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT group_concat(`name`) as currencyList
+FROM `currency`
+in /var/www/mavpay/protected/models/Currency.php (251)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (109)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `es`.`id`, `es`.`currency_id`
+FROM `exchange_settings` `es`
+JOIN `currency` `c` ON c.id = es.currency_id 
+WHERE c.status = 'ACTIVE' AND es.show_as_source = 'YES' AND es.status= 'ACTIVE' AND c.mode != 'INTERNAL'
+ORDER BY `c`.`priority` ASC
+in /var/www/mavpay/protected/controllers/SiteController.php (121)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (126)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/models/Currency.php (250)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/models/Currency.php (250)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT group_concat(`name`) as currencyList
+FROM `currency`
+in /var/www/mavpay/protected/models/Currency.php (251)
+in /var/www/mavpay/protected/controllers/SiteController.php (107)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (109)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `es`.`id`, `es`.`currency_id`
+FROM `exchange_settings` `es`
+JOIN `currency` `c` ON c.id = es.currency_id 
+WHERE c.status = 'ACTIVE' AND es.show_as_source = 'YES' AND es.status= 'ACTIVE' AND c.mode != 'INTERNAL'
+ORDER BY `c`.`priority` ASC
+in /var/www/mavpay/protected/controllers/SiteController.php (121)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (126)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:53:20 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/11/26 00:54:09 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [application] Exchange rates
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/controllers/SiteController.php (70)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.ar.CActiveRecord] CurrencyPairRate.findAll()
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `currency_pair_rate`
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `currency_pair_rate`
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `currency_pair_rate` `t` WHERE status = "ACTIVE"
+in /var/www/mavpay/protected/controllers/SiteController.php (74)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [application] Get Buy Sell Price Pair: BTC/INR
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (173)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:54:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `price`, `progress`
+FROM `currency_pair_rate` `u`
+WHERE currency_pair = "BTC/INR"
+in /var/www/mavpay/protected/components/BaseClass.php (176)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`, `activity`
+FROM `systemsettings` `u`
+WHERE activity IN ("margin_BTC/INR","margin_BTC/INR")
+in /var/www/mavpay/protected/components/BaseClass.php (183)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [application] Calculate Percentage: 66000,0.2
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (134)
+in /var/www/mavpay/protected/components/BaseClass.php (197)
+2016/11/26 00:54:09 [trace] [application] Calculate Percentage: 66000,0.2
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (134)
+in /var/www/mavpay/protected/components/BaseClass.php (200)
+2016/11/26 00:54:09 [trace] [application] Pair Currency Response: 
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/components/BaseClass.php (206)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:54:09 [trace] [application] array
+(
+    'currency_price' => '&#8377;66000<i class=\"fa fa-arrow-up\" aria-hidden=\"true\"></i>'
+    'sell' => ': &#8377;65868.00'
+    'buy' => ': &#8377;66132.00'
+    'isEur' => 0
+)
+in /var/www/mavpay/protected/components/BaseClass.php (238)
+in /var/www/mavpay/protected/components/BaseClass.php (206)
+in /var/www/mavpay/protected/controllers/SiteController.php (87)
+2016/11/26 00:54:09 [trace] [application] Buy Sell Price: 
+in /var/www/mavpay/protected/components/BaseClass.php (236)
+in /var/www/mavpay/protected/controllers/SiteController.php (93)
+in /var/www/mavpay/index.php (23)
+2016/11/26 00:54:09 [trace] [application] array
+(
+    'list' => ''
+    'price' => '&#8377;66000<i class=\"fa fa-arrow-up\" aria-hidden=\"true\"></i>'
+    'buy' => ': &#8377;66132.00'
+    'sell' => ': &#8377;65868.00'
+    'isEur' => 0
+)
+in /var/www/mavpay/protected/components/BaseClass.php (238)
+in /var/www/mavpay/protected/controllers/SiteController.php (93)
+in /var/www/mavpay/index.php (23)

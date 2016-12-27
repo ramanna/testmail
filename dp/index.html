@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+ 
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://rawgit.com/dbrekalo/attire/master/dist/css/build.min.css">
+<script src="https://rawgit.com/dbrekalo/attire/master/dist/js/build.min.js"></script>
+
+        <link rel="stylesheet" href="dist/fastselect.min.css">
+        <script src="dist/fastselect.standalone.js"></script>
+
+        <style>
+
+            .fstElement { font-size: 1.2em; }
+            .fstToggleBtn { min-width: 16.5em; }
+
+            .submitBtn { display: none; }
+
+            .fstMultipleMode { display: block; }
+            .fstMultipleMode .fstControls { width: 100%; }
+
+        </style>
+
+    </head>
+<body>
+
+    <section id="section-examples" class="attireBlock mod1">
+    <div class="inner">
+ 
+        <form class="attireCodeToggleBlock" action="">
+
+
+            <select class="multipleSelect" multiple name="language">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Vanuatu">Vanuatu</option>
+                <option value="Vatican City">Vatican City</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Yemen">Yemen</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+            <button class="submitBtn" type="submit">Submit</button>
+
+            <script>
+
+                $('.multipleSelect').fastselect();
+
+            </script>
+
+ 
+
+            <pre class="attireCodeHighlight"><code class="language-javascript">
+                $('.multipleSelect').fastselect();
+            </code>
+		</pre>
+
+        </form>
+
+        
+
+    </div>
+</section>
+    
+
+
+</body>
+
+</html>

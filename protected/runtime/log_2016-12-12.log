@@ -1,0 +1,219 @@
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/mavpay/protected/views/layouts/column1.php (2)
+in /var/www/mavpay/protected/controllers/SiteController.php (71)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/views/layouts/header.php (125)
+in /var/www/mavpay/protected/views/layouts/main.php (6)
+in /var/www/mavpay/protected/views/layouts/column1.php (6)
+2016/12/12 15:53:39 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/mavpay/protected/controllers/SiteController.php (71)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/controllers/SecurityController.php (47)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/controllers/WalletController.php (297)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/controllers/WalletController.php (115)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/protected/controllers/WalletController.php (115)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter SupportController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [application] Reading All Active Department from Department Table
+in /var/www/mavpay/protected/components/BaseClass.php (214)
+in /var/www/mavpay/protected/models/Department.php (130)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+2016/12/12 15:53:40 [trace] [system.db.ar.CActiveRecord] Department.findAll()
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `department`
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `department`
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT id, name FROM `department` `t` WHERE status = 'ACTIVE'
+in /var/www/mavpay/protected/models/Department.php (134)
+in /var/www/mavpay/protected/controllers/SupportController.php (51)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter UserController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter UserController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter CountryController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter CountryController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [application] Reading All Country from Country Table
+in /var/www/mavpay/protected/components/BaseClass.php (214)
+in /var/www/mavpay/protected/models/Country.php (112)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+2016/12/12 15:53:41 [trace] [system.db.ar.CActiveRecord] Country.findAll()
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `country`
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `country`
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT id, name FROM `country` `t`
+in /var/www/mavpay/protected/models/Country.php (115)
+in /var/www/mavpay/protected/controllers/CountryController.php (57)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.web.filters.CFilterChain] Running filter TradeController.filteraccessControl()
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.CModule] Loading "db" application component
+in /var/www/mavpay/protected/components/BaseClass.php (178)
+in /var/www/mavpay/protected/controllers/TradeController.php (113)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/mavpay/protected/components/BaseClass.php (178)
+in /var/www/mavpay/protected/controllers/TradeController.php (113)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `price`, `progress`
+FROM `currency_pair_rate` `u`
+WHERE currency_pair = "BTC/INR"
+in /var/www/mavpay/protected/components/BaseClass.php (179)
+in /var/www/mavpay/protected/controllers/TradeController.php (113)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`
+FROM `systemsettings` `u`
+WHERE activity = "margin_BTC/INR"
+in /var/www/mavpay/protected/models/Systemsettings.php (158)
+in /var/www/mavpay/protected/components/BaseClass.php (180)
+in /var/www/mavpay/protected/controllers/TradeController.php (113)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`
+FROM `systemsettings` `u`
+WHERE activity = "margin_INR/BTC"
+in /var/www/mavpay/protected/models/Systemsettings.php (158)
+in /var/www/mavpay/protected/components/BaseClass.php (181)
+in /var/www/mavpay/protected/controllers/TradeController.php (113)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`
+FROM `systemsettings` `u`
+WHERE activity = "fees_INR/BTC"
+in /var/www/mavpay/protected/models/Systemsettings.php (158)
+in /var/www/mavpay/protected/controllers/TradeController.php (114)
+in /var/www/mavpay/index.php (23)
+2016/12/12 15:53:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT `value`
+FROM `systemsettings` `u`
+WHERE activity = "fees_BTC/INR"
+in /var/www/mavpay/protected/models/Systemsettings.php (158)
+in /var/www/mavpay/protected/controllers/TradeController.php (115)
+in /var/www/mavpay/index.php (23)

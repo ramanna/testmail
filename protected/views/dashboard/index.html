@@ -1,0 +1,732 @@
+
+
+<!DOCTYPE html>
+<html class="no-js"  prefix="og: https://ogp.me/ns#" lang="en">
+  <head >
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="H2g8M1ajW2QXWdAqTsAd1kX2Bb0rsIQnHpG7EFjK9tw" />
+	<meta property="og:image" content="https://toponexchange.com/images/Poster.jpg" />
+	<meta property="og:site_name" content="Toponexchange">
+	<meta property="og:title" content="Toponexchange | Buy, Sell & Exchange">
+	<meta property="og:description" content=" TopOnExchange is the go-to portal for buy,sell and exchange of all kinds of digital currency in a fast, secure and reliable way. We allow you to not just exchange e-currencies but also to exchange funds between wallets of various network marketing companies" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="Toponeexchange is the go-to portal for buy,sell and exchange of all kinds of e currency.Exchange e-currencies and MLM wallets like Mglobally,one coin and more" />
+<meta name="keywords" content="Automatic E Currency Exchanger, E Currency Exchanger, Currency Exchanger,Perfect Money USD,OkPay ,Paxum,Bank Wire USD,SolidTrust PAY,Paypal,MGlobally RP,PAYEER,NETELLER,SKRILL,Bitcoin USD,Fasapay USD,Yandex Money,Advcash,BTC Wallet,USD Wallet,EUR Wallet,CNY Wallet " />
+<script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="/js/angular/angular.js"></script>
+<script type="text/javascript" src="/metronic/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="/js/controllers/indexController.js"></script>
+<title>Toponeexchange - E Currency Exchanger</title>
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- Bootstrap -->
+	<link href="/css/all-plugin.css" rel='stylesheet' type='text/css'/>
+	<link href="/css/translateelement.css" rel='stylesheet' type='text/css'/>
+	<link href='/metronic/assets/css/components.min.css' rel='stylesheet' type='text/css'/>
+	<link href="/css/dd.css" rel="stylesheet"/>
+	<link href="/css/style.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+					<!--<link href="/css/responsive.css" rel="stylesheet" />-->
+	<script type="text/javascript"> //<![CDATA[
+
+      var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+
+      document.write(unescape("%3Cscript src='/js/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+
+	</script>
+	<script type="text/javascript" src="/js/jquery-3.1.0.min.js" async></script>
+
+	<script src="/js/angular/angular.min.js"></script>
+	<script src="/js/angular/angular-route.min.js"></script>
+	<script src="/js/angular/angular-animate.js"></script>
+	<script src="/js/angular/angular-sanitize.js"></script>
+	<script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.1.3.js"></script>
+
+
+	<!-- VK SHARE-->
+	<script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+
+  </head>
+  
+  <body class="loader_body">
+	<div id="fb-root"></div>
+	<div class="fade-screen"></div>
+	<div id="new_loader" style="display:none;"><img src="/images/ajax-loader_new.gif" class="load-img" alt="loader-image"></div>
+	<header>
+	<section class="topHeader">
+	  <div class="container">
+		<div class="col-md-3 serverTime">Server : 12/09/2016 - 05:26:52 AM</div>
+		<div class="col-md-9 text-right">
+		  <div class="topInfo" >
+			<div class="dropBox" id="currency_pair_data">
+			  <select>
+				<option name="BTC/USD">BTC/USD</option>
+			  </select>
+			</div>
+			<span id="todayPrice">
+			  <img id="loaderSmall" src="/images/loader.gif">
+			</span>
+		  </div>
+		  <div class="topInfo">
+			Buy <i class="fa fa-btc" aria-hidden="true"></i> <span id="buy_price"><img id="loaderSmall" src="/images/loader.gif"></span>
+		  </div>
+		  <div class="topInfo">
+			Sell <i class="fa fa-btc" aria-hidden="true"></i> <span id="sell_price"><img id="loaderSmall" src="/images/loader.gif"></span>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<div class="header-nav">
+	  <div class="container">
+		<div class="row">
+		  <nav class="navbar navbar-default toe-navbar">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand relative-brand" href="/"><img src="/images/logo.png" class="main-logo" alt="main-logo"></a>
+			  </div>
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="padding0 parent-nav">
+				  <ul class="nav navbar-nav mainnav-ul">
+					<li class=""><a href="/">Exchange</a></li>
+					<li class=""><a href="/fees">Fees</a></li>
+				  </ul>
+
+				  				</div>
+
+				<div class="userBlock pull-right">
+				  <img src="../images/profile-thumbnail.png">
+				  <span class="userName">User Name</span>
+				  <span class="dropIcon"></span>
+				  <div class="userDropdown">
+					<a href="javascript:void(0)">DashBoard</a>
+					<a href="javascript:void(0)">Profile</a>
+					<a href="javascript:void(0)">Logout</a>
+				  </div>
+				</div>
+
+				<div class="LanguageSelect pull-right">
+				  <img id="imgflag" onclick="runThis()" src="/images/flags/en.png" class="langflag">
+				  <select onchange="pal(this);" id="idlanng" class="notranslate">
+					<option value="en|en">Language</option>
+					<option value="en|ar">Arabic</option>
+					<option value="en|bg">Bulgarian</option>
+					<option value="en|ca">Catalan</option>
+					<option value="en|zh-CN">Chinese</option>
+					<option value="en|cs">Czech</option>
+					<option value="en|da">Danish</option>
+					<option value="en|nl">Dutch</option>
+					<option value="en|en">English</option>
+					<option value="en|et">Estonian</option>
+					<option value="en|fi">Finnish</option>
+					<option value="en|fr">French</option>
+					<option value="en|de">German</option>
+					<option value="en|el">Greek</option>
+					<option value="en|ht">Haitian Creole</option>
+					<option value="en|hi">Hindi</option>
+					<option value="en|hu">Hungarian</option>
+					<option value="en|id">Indonesian</option>
+					<option value="en|it">Italian</option>
+					<option value="en|ja">Japanese</option>
+					<option value="en|ko">Korean</option>
+					<option value="en|lv">Latvian</option>
+					<option value="en|lt">Lithuanian</option>
+					<option value="en|no">Norwegian</option>
+					<option value="en|pl">Polish</option>
+					<option value="en|pt">Portuguese</option>
+					<option value="en|ro">Romanian</option>
+					<option value="en|ru">Russian</option>
+					<option value="en|sk">Slovak</option>
+					<option value="en|sl">Slovenian</option>
+					<option value="en|es">Spanish</option>
+					<option value="en|sv">Swedish</option>
+					<option value="en|th">Thai</option>
+					<option value="en|tr">Turkish</option>
+					<option value="en|uk">Ukrainian</option>
+					<option value="en|vi">Vietnamese</option>
+				  </select>
+				  <div id="google_translate_element2">
+					<div class="skiptranslate goog-te-gadget" dir="ltr"><div id=":0.targetLanguage"><select class="goog-te-combo"><option value="">Select Language</option><option value="af">Afrikaans</option><option value="sq">Albanian</option><option value="am">Amharic</option><option value="ar">Arabic</option><option value="hy">Armenian</option><option value="az">Azerbaijani</option><option value="eu">Basque</option><option value="be">Belarusian</option><option value="bn">Bengali</option><option value="bs">Bosnian</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="ceb">Cebuano</option><option value="ny">Chichewa</option><option value="zh-CN">Chinese (Simplified)</option><option value="zh-TW">Chinese (Traditional)</option><option value="co">Corsican</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="nl">Dutch</option><option value="eo">Esperanto</option><option value="et">Estonian</option><option value="tl">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="fy">Frisian</option><option value="gl">Galician</option><option value="ka">Georgian</option><option value="de">German</option><option value="el">Greek</option><option value="gu">Gujarati</option><option value="ht">Haitian Creole</option><option value="ha">Hausa</option><option value="haw">Hawaiian</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hmn">Hmong</option><option value="hu">Hungarian</option><option value="is">Icelandic</option><option value="ig">Igbo</option><option value="id">Indonesian</option><option value="ga">Irish</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="jw">Javanese</option><option value="kn">Kannada</option><option value="kk">Kazakh</option><option value="km">Khmer</option><option value="ko">Korean</option><option value="ku">Kurdish (Kurmanji)</option><option value="ky">Kyrgyz</option><option value="lo">Lao</option><option value="la">Latin</option><option value="lv">Latvian</option><option value="lt">Lithuanian</option><option value="lb">Luxembourgish</option><option value="mk">Macedonian</option><option value="mg">Malagasy</option><option value="ms">Malay</option><option value="ml">Malayalam</option><option value="mt">Maltese</option><option value="mi">Maori</option><option value="mr">Marathi</option><option value="mn">Mongolian</option><option value="my">Myanmar (Burmese)</option><option value="ne">Nepali</option><option value="no">Norwegian</option><option value="ps">Pashto</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="pa">Punjabi</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sm">Samoan</option><option value="gd">Scots Gaelic</option><option value="sr">Serbian</option><option value="st">Sesotho</option><option value="sn">Shona</option><option value="sd">Sindhi</option><option value="si">Sinhala</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option value="so">Somali</option><option value="es">Spanish</option><option value="su">Sundanese</option><option value="sw">Swahili</option><option value="sv">Swedish</option><option value="tg">Tajik</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="th">Thai</option><option value="tr">Turkish</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="uz">Uzbek</option><option value="vi">Vietnamese</option><option value="cy">Welsh</option><option value="xh">Xhosa</option><option value="yi">Yiddish</option><option value="yo">Yoruba</option><option value="zu">Zulu</option></select></div>Powered by <span style="white-space:nowrap"><a class="goog-logo-link" href="https://translate.google.com/" target="_blank"><img src="images/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px">Translate</a></span></div></div>
+				  <script type="text/javascript">
+                    function googleTranslateElementInit2() {
+                      new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');
+                    }
+				  </script>
+				  <script type="text/javascript" src="/js/element.js?ver=1474960618"></script>
+				  <script type="text/javascript">
+                    /* <![CDATA[ */
+                    eval(function (p, a, c, k, e, r) {
+                      e = function (c) {
+                        return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+                      };
+                      if (!''.replace(/^/, String)) {
+                        while (c--)
+                          r[e(c)] = k[c] || e(c);
+                        k = [function (e) {
+                            return r[e]
+                          }];
+                        e = function () {
+                          return '\\w+'
+                        };
+                        c = 1
+                      }
+                      ;
+                      while (c--)
+                        if (k[c])
+                          p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+                      return p
+                    }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+                            /* ]]> */
+				  </script>
+				</div>
+
+				<div class="currencyAmount pull-right"   ng-app="walletApp" ng-controller="walletController">
+				  <div class="item bitCoin">
+					<span><a href="javascript:void(0);" ng-click="createWallet('USDW');">Create BTC Wallet</a></span>
+				  </div>
+				  <div class="item bitCoin {{usd === "nw" ? "inactive" : "active"}}">
+					<span><i class="fa fa-btc" aria-hidden="true"></i> <span>{{btc}}</span></span>
+					<span class="small">.00</span>
+				  </div>
+				  <div class="item dollarSign" >
+					<span><i class="fa fa-usd" aria-hidden="true"></i> <span>{{usd}}</span></span>
+					<span class="small">.00</span>
+				  </div>
+				  <div class="item euroSign {{usd === "nw" ? "inactive" : "active"}}">
+					<span><i class="fa fa-eur" aria-hidden="true"></i> <span>{{eur}}</span></span>
+					<span class="small">.00</span>
+				  </div>
+				  <div class="item jpySign {{usd === "nw" ? "inactive" : "active"}}">
+					<span><i class="fa fa-jpy" aria-hidden="true"></i> <span>{{cny}}</span></span>
+					<span class="small">.00</span>
+				  </div>
+				</div>
+			  </div>
+			  <!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		  </nav>
+		</div>
+	  </div>
+	</div>
+  </header>
+        <script>
+            var userWalletApp = angular.module('walletApp');
+
+    userWalletApp.controller('walletController', function ($scope, $http) {
+        alert("testing");
+    });
+            </script>
+    
+<div id="content">
+	<div id="left" ng-app="indexApp" ng-controller="indexCtrl" ng-init="getCurrency(15)">
+    <div class="exchange-div">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-2 hidden-xs">&nbsp;</div>
+                <div class="col-md-3 top25 custom-pad relative-div">
+                    <span class="shadow div-shadow"></span>
+                    <div class="down-arrow">
+                        <p>You Send</p>
+                        <img src="/images/send_icon.png" class="extop-img extop-send" alt="extop-img">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="payment-div top25 notranslate toe">
+                        <ul class="list-unstyled payment-list" ng-cloak>
+                            <li ng-class-odd="{'left-arrow': (currencyJson.name.length < 20), 'left-arrow more-left-arrow':(currencyJson.name.length > 20)}" ng-class-even="{'right-arrow': (currencyJson.name.length < 20), 'right-arrow more-right-arrow':(currencyJson.name.length > 20)}" ng-class="{'active': $index == 0, 'bt-true': $index == 0,}" ng-repeat="currencyJson in fromCurrencyJson"  onclick="getClass(this);">
+                                <div class="list-bg">
+                                    <a href="javascript:void(0)" data-id="1" class="ng-binding"  ng-click="getCurrency(currencyJson.id);">
+                                        <img class="payment-img" ng-src="/currency_logo/{{currencyJson.image}}" alt="pg-images">{{ currencyJson.name}}</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 top25 custom-pad relative-div">
+                    <span class="shadow div-shadow"></span>
+                    <div class="down-arrow">
+                        <p>You Receive</p>
+                        <span class="receive-icon extop-img extop-recieve"></span>
+                    </div>
+                    <div class="payment-div notranslate toe top25">
+                        <ul class="list-unstyled payment-list receive-ul">
+                            <!--<li ng-class-odd="'left-arrow'" ng-class-even="'right-arrow'" ng-class="{'bt-true': $index == 0}">-->
+                            <li ng-class-odd="{'left-arrow': (toCurrencyJsonData.name.length < 20), 'left-arrow more-left-arrow':(toCurrencyJsonData.name.length > 20)}" ng-class-even="{'right-arrow': (toCurrencyJsonData.name.length < 20), 'right-arrow more-right-arrow':(toCurrencyJsonData.name.length > 20)}" ng-repeat="toCurrencyJsonData in toCurrencyJson" data-user-send-flow-id="{{ toCurrencyJsonData.from_id}}" ng-cloak>
+                                <div class="list-bg">
+                                    <a class="" href="/exchange/order/{{ toCurrencyJsonData.fromSlug}}-{{ toCurrencyJsonData.toSlug}}" onmouseout="hideClassA()" onmouseover="getClassA(this);">
+                                        <img class="payment-img" ng-src="/currency_logo/{{toCurrencyJsonData.image}}" alt="paylopp-img">
+                                        {{ toCurrencyJsonData.name}}<span class="fees">4.5%</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 top25 custom-pad relative-div">
+                    <span class="shadow div-shadow"></span>
+                    <div class="down-arrow">
+                        <p> Reserve</p>
+                        <span class="piggy-bank extop-img extp-reserve"></span>
+                    </div>
+                    <div class="top25" >
+                        <div class="payment-div">
+                            <ul class="list-unstyled payment-list amount-ul">
+                                <li ng-class-odd="'left-arrow'" ng-class-even="'right-arrow'" ng-class="{'bt-true': $index == 0}" ng-repeat="toCurrencyJsonData in toCurrencyJson" data-user-send-flow-id="{{ toCurrencyJsonData.from_id}}" ng-cloak>
+                                    <div class="list-bg">
+                                        <a class="user-receive-flow" href="/exchange/order/{{ toCurrencyJsonData.fromSlug}}-{{ toCurrencyJsonData.toSlug}}" onmouseover="getClassA(this);" onmouseout="hideClassA()">
+                                {{ toCurrencyJsonData.reserve}}<p id="ex_tag_{{ toCurrencyJsonData.fromSlug}}_{{ toCurrencyJsonData.toSlug}}" class="ex-tag" style="display:none">Exchange</p><!--<span class="need-more">Exchange!</span>-->     </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="deals-section">
+  <div class="container deals-container">
+	<img src="/images/green_shadow.png" class="green-shadow" alt="greenshadow-img">
+	<div id="deals-demo" class="owl-carousel owl-theme">  
+	  		  <div class="item">
+			<div class="padding0 deal-head">
+			  <img src="/images/best_deals_bg.png" class="top-img" alt="best-detail">
+			  <p>From MGlobally RP</p>
+			</div>              
+			<div class="col-md-12 deal-img">                   
+			  <img src="/deals/1459342224the_best_deals2.png" class="down-img " alt="The Last of us">
+			</div>
+		  </div>
+				  <div class="item">
+			<div class="padding0 deal-head">
+			  <img src="/images/best_deals_bg.png" class="top-img" alt="best-detail">
+			  <p>From MGlobally RP</p>
+			</div>              
+			<div class="col-md-12 deal-img">                   
+			  <img src="/deals/1459342241the_best_deals3.png" class="down-img " alt="The Last of us">
+			</div>
+		  </div>
+			</div>
+  </div>
+</div>
+<div class="news-test-section noborder">
+    <div class="container">
+        <div class="row">
+            <div class="testimonial col-md-6">
+                <div class="padding0 testimonial-parent">
+                    <div class="testimonial-head">
+                        <span class="test-left testimonial-triangle-left"></span>
+                        <p class="test-head-p">
+
+                            <span><i class="fa fa-comments-o"></i>Testimonials
+                                <a href="/site/testimonials" class="view-a view-a-2">View All</a>
+                            </span>
+
+                        </p>
+                        <span class="test-right testimonial-triangle-right"></span>
+                    </div>
+                                                <div class="clearfix"></div>
+                            <div class="testimonial-content">   
+                                <p><i class="fa fa-quote-left"></i>Wow !!!  This is virtually a RP wallet withdrawal of MGlobally . Thank you TOE !                                                                            <i class="fa fa-quote-right"></i> 
+                                                                    </p>
+                                <p class="client-p">Robert</p>
+                                                                <!--  <p class="client-sub">John Doe</p>-->
+                            </div>
+                                                        <div class="clearfix"></div>
+                            <div class="testimonial-content">   
+                                <p><i class="fa fa-quote-left"></i>Reliable service and very good customer support.Thanks                                                                            <i class="fa fa-quote-right"></i> 
+                                                                    </p>
+                                <p class="client-p">Marija</p>
+                                                                <!--  <p class="client-sub">John Doe</p>-->
+                            </div>
+                                                        <div class="clearfix"></div>
+                            <div class="testimonial-content">   
+                                <p><i class="fa fa-quote-left"></i>Fast exchange and low fees. Thanks                                                                            <i class="fa fa-quote-right"></i> 
+                                                                    </p>
+                                <p class="client-p">Kafil</p>
+                                                                <!--  <p class="client-sub">John Doe</p>-->
+                            </div>
+                                              
+                </div>
+            </div>
+            <div class="news col-md-6">
+                <div class="padding0 news-parent">
+                    <div class="testimonial-news">
+                        <span class="news-left news-triangle-left"></span>
+                        <p class="news-head-p">
+                            <span><i class="fa fa-newspaper-o"></i>News
+                                                                    <a href="/site/news" class="view-a">View All</a>
+                                                            </span>
+                        </p>  
+                        <span class="news-right news-triangle-right"></span>
+                    </div>
+                                                <div class="news-content">
+                                <p><i class="fa fa-quote-left"></i>Thanks to all our users. We just successfully completed First 100 orders for exchange from MGlobally RP wallet                                                                            <i class="fa fa-quote-right"></i>
+                                                                </p>
+                                                            </div>
+                                                        <div class="news-content">
+                                <p><i class="fa fa-quote-left"></i>First time in history of MLM business TopOneExchange lets you exchange your MLM wallet points to other e-curre                                    ...                                </p>
+                                                                    <a href="#" class="news-a" data-toggle="modal" data-target="#myModal4">Read More <i class="fa fa-arrow-right"></i></a>
+                                                        </div>
+                                                            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title news-h4" id="myModalLabel4">Buy and sell your MLM points for USD Dollars</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">
+                                                First time in history of MLM business TopOneExchange lets you exchange your MLM wallet points to other e-currencies.                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn modal-submit" href="/site/news">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <div class="news-content">
+                                <p><i class="fa fa-quote-left"></i>TopOneExchange lets you to use MGlobally RP wallet for exchange with multiple e-currencies at very minimal fee                                    ...                                </p>
+                                                                    <a href="#" class="news-a" data-toggle="modal" data-target="#myModal5">Read More <i class="fa fa-arrow-right"></i></a>
+                                                        </div>
+                                                            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title news-h4" id="myModalLabel5">Exchange MGlobally RP for e-currencies</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">
+                                                TopOneExchange lets you to use MGlobally RP wallet for exchange with multiple e-currencies at very minimal fees.                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn modal-submit" href="/site/news">View More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                            </div>
+            </div>
+        </div>
+    </div>
+  <style>
+	.more-left-arrow:after {
+	  content: '';
+	  position: absolute;
+	  left: -22px;
+	  top: -1px;
+	  border-right: 24px solid #f3f3f3;
+	  border-top: 34px solid transparent;
+	  border-bottom: 34px solid transparent; display: none
+	}
+	.more-left-arrow:before {
+	  content: '';
+	  position: absolute;
+	  top: -2px;
+	  left: -25px;
+	  border-right: 26px solid #00BDAE;
+	  border-top: 35px solid transparent;
+	  border-bottom: 36px solid transparent; display: none
+	}
+	.more-right-arrow:after {
+	  content: '';
+	  position: absolute;
+	  right: -23px;
+	  top: -2px;
+	  border-left: 26px solid #f3f3f3;
+	  border-top: 34px solid transparent;
+	  border-bottom: 36px solid transparent; display: none
+	}
+	.more-right-arrow:before {
+	  content: '';
+	  position: absolute;
+	  top: -1px;
+	  right: -25px;
+	  border-left: 25px solid #00BDAE;
+	  border-top: 33px solid transparent;
+	  border-bottom: 35px solid transparent; display: none
+	}
+  </style>
+  
+  <script>
+        function getClass(obj) {
+            $('li').removeClass("active");
+            $(obj).addClass("active");
+        }
+        function getClassA(obj) {
+            $('a').removeClass("active");
+            $(obj).addClass("active");
+            var str = obj.toString();
+            var toId = new Array();
+            var fromId = new Array();
+            string1 = str.split("-");
+            string2 = string1[0].split("order/");
+            fromId = string2[1];
+            toId = string1[1];
+            $('.ex-tag').hide();
+            $('#ex_tag_' + fromId + '_' + toId).show();
+        }
+        function hideClassA()
+        {
+            $('.ex-tag').hide();
+        }
+    </script>
+</div><!-- content -->
+    
+<div class="clearfix"></div>
+<div class="nopadding main-footer">
+    <!--    <div class="payment-gateway">
+            <div class="container">
+                <div class="payment-scroller padding0">
+    <!--                <div id="payment-footer">
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460367760^942DE4BDC0B49631187559BDE7BEA855C0E70FD0B63DFB20C2^pimgpsh_fullsize_distr.png" alt="Perfect Money USD"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1471517838okpay_ft.png" alt="OkPay "/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1462533169paxum_actual.png" alt="Paxum"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1464944078bankwire_usd_150.png" alt="Bank Wire USD"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460367434solid_trust_actual.png" alt="SolidTrust PAY"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="" alt="Paypal"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460456415^A0ACB54F8B67244C96592876EF396573C6834C5D0B931F7B0A^pimgpsh_fullsize_distr.png" alt="MGlobally RP"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460455802^F6745ADCDF119DFF8D21D175780F872D468A8534F8AD86D472^pimgpsh_fullsize_distr.png" alt="PAYEER"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460456071^371821DEBEBDF2EBE16827C02AF2FBA4EA727EA7FD30E041F6^pimgpsh_fullsize_distr.png" alt="NETELLER"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1460455820^2D5717410DB334EC64CADFF362D7E2AF2009F1E8E7A53A28CF^pimgpsh_fullsize_distr.png" alt="SKRILL"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1461763779bitcoin_footer.png" alt="Bitcoin USD"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1462519145fasapay.png" alt="Fasapay USD"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1462536021Yandex_footer.png" alt="Yandex Money"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="/upload/gateway_logo/1462536207advcash_footer.png" alt="Advcash"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="" alt="BTC Wallet"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="" alt="USD Wallet"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="" alt="EUR Wallet"/>
+                                </div>
+                                    <div class="item">
+                                    <img src="" alt="CNY Wallet"/>
+                                </div>
+                                       
+                    </div>-->
+</div>
+</div>
+</div>-->
+<div class="clearfix"></div>
+<div class="footer ">
+    <div class="container">
+        <div class="row text-center">
+            <ul class="list-inline list-unstyled footer-link">
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contactus">Contact Us</a></li>
+                <li><a href="/terms">Terms and Conditions</a></li>
+                <li><a href="/privacypolicy">Privacy Policy</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/aml">AML</a></li>
+                <li><a href="/legal">Legal</a></li>
+            </ul>
+        </div>   
+        <div class="row">
+            <div class="padding0 col-md-4 social-div">
+                <ul class="list-inline list-unstyled social-ul">
+                    <li><p>Follow Us</p></li>
+                    <li><a target="_blank" href="https://www.facebook.com/Toponeexchange" title="Facebook"><i class="fa fa-facebook fb-i"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/Toponeexchange" title="Twitter"><i class="fa fa-twitter tw-i"></i></a></li>
+                    <li><a href="skype:toponeexchange?call"><i class="fa fa-skype sk-i"></i></a></li>
+                </ul>
+            </div>
+            <div class="padding0 col-md-2 fbshare-div">
+                                    <div class="fb-share">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://toponexchange.com/" target="_blank">
+                            <i aria-hidden="true" class="fa fa-facebook-square fb-toe"></i>
+                            <span>Share</span>
+                        </a>
+                    </div>
+                    <div class="vk-share">
+                        <script type="text/javascript"><!--
+                            document.write(VK.Share.button({url: "https://toponexchange.com"}, {type: "round_nocount", text: "Share", eng: 1}));
+    --></script>
+                    </div>
+                            </div>
+            <div class="col-md-4 pull-right">
+                <a href="#" class="pull-right" onclick="window.open('https://www.sitelock.com/verify.php?site=toponeexchange.com', 'SiteLock', 'width=600,height=600,left=160,top=170');"><img src="/images/sls-img.png" class="sls-img" alt="sls-footer"></a>
+                <a href="#" class="pull-right" ><img src="/images/comodo_secure.png" class="comodo-img" alt="combo-footer"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copy-write text-center">
+    <div class="container">
+        <div class="row">
+            <p>TopOneExchange does not provide services to US citizens, due to Rule of Financial Crimes Enforcement Network &copy; TopOneExchange 2016</p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="/js/bootstrap.min.js?ver=1474960618"></script>
+<script src="/js/owl.carousel.min.js?ver=1474960618"></script>
+<script type="text/javascript" src="/js/jquery.dd.min.js" async></script>
+<script type="text/javascript" src="/js/custom.js" async></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+    <script src="/metronic/assets/scripts/bootstrap-hover-dropdown.min.js?ver=1474960618" type="text/javascript"></script>
+    <script src="/metronic/assets/scripts/select2.full.min.js?ver=1474960618" type="text/javascript"></script>
+    <script src="/metronic/assets/scripts/app.min.js?ver=1474960618" type="text/javascript"></script>
+    <script src="/metronic/assets/scripts/components-select2.min.js?ver=1474960618" type="text/javascript"></script>
+
+
+<!--Google translator -->
+<script type="text/javascript">
+    showDropdown = function (element) {
+        var event;
+        event = document.createEvent('MouseEvents');
+        event.initMouseEvent('mousedown', true, true, window);
+        element.dispatchEvent(event);
+    };
+    // This isn't magic.
+    window.runThis = function () {
+        var dropdown = document.getElementById('idlanng');
+        showDropdown(dropdown);
+    };
+    function pal(r) {
+        doGTranslate(r);
+        var rr = $(r);
+        var gg = rr.val();
+        gg = gg.split('|');
+        gg = gg[1];
+        $("#imgflag").attr("src", "/images/flags/" + gg + ".png");
+    }
+
+    $(function () {
+        $('.userBlock span.userName, .userBlock .dropIcon').on("click", function (e) {
+            e.stopPropagation();
+            $('.userDropdown').slideToggle(600);
+        });
+        $('body').click(function () {
+            $('.userDropdown').slideUp(500);
+        });
+    });
+
+</script>
+<script>
+    exchangePrice();
+    window.setInterval(function () {
+        readMarketPrice();  //calling every 5 seconds
+        exchangePrice();  //calling every 5 seconds
+    }, 1000000);
+
+    function readMarketPrice() {
+
+        $.ajax({
+            method: "GET",
+            url: "/site/rate",
+            data: {price: "reading..."},
+            success: function (data) {
+                console.log('Success!');
+            },
+            error: function (jqXHR, textStatus, err) {
+                /*show error message*/
+                console.log(jqXHR);
+                console.log('text status ' + textStatus + ', err ' + err);
+            }
+        });
+    }
+    function exchangePrice() {
+
+        $.ajax({
+            method: "GET",
+            url: "/site/getexchangerate",
+            data: {price: "reading..."},
+            success: function (data) {
+                var parseData = jQuery.parseJSON(data);
+                $("#currency_pair_data").html(parseData.list);
+                $("#todayPrice").html(parseData.price);
+                $("#buy_price").html(parseData.buy);
+                $("#sell_price").html(parseData.sell);
+            },
+            error: function (jqXHR, textStatus, err) {
+                console.log(jqXHR);
+                console.log('text status ' + textStatus + ', err ' + err);
+            }
+        });
+    }
+    function getprice(price) {
+        $("#todayPrice").html(price);
+    }
+/*
+    var userWalletApp = angular.module('walletApp', []);
+
+    userWalletApp.controller('walletController', function ($scope, $http) {
+        alert("testing");
+        $http.get('wallet/read').success(function (response) { 
+            var btcWallet = 'nw';
+            var usdWallet = 'nw';
+            var eurWallet = 'nw';
+            var cnyWallet = 'nw';
+            $.each(response, function (i, response) {
+                if (response.code == 'BTCW') { //TODO: Create static name for all wallets
+                    btcWallet = response.amount;
+                }
+                if (response.code == 'USDW') {
+                    usdWallet = response.amount;
+                }
+                if (response.code == 'EURW') {
+                    eurWallet = response.amount;
+                }
+                if (response.code == 'CNYW') {
+                    cnyWallet = response.amount;
+                }
+                $scope.btc = btcWallet;
+                $scope.usd = usdWallet;
+                $scope.eur = eurWallet;
+                $scope.cny = cnyWallet;
+
+            });
+
+        });
+        $scope.createWallet = function (walletType) {
+            $scope.ok = true;
+            $scope.loading = true;
+            $http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+            $http.post('wallet/create', {'walletType': walletType}).success(function (response) {
+                alert('create');
+            });
+        }
+    });*/
+</script>
+</body>
+</html>

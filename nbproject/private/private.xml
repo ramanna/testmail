@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/myscript/protected/models/User.php</file>
+            <file>file:/var/www/myscript/protected/views/layouts/main.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/sent.php</file>
+            <file>file:/var/www/myscript/protected/models/Mail.php</file>
+            <file>file:/var/www/myscript/protected/controllers/SiteController.php</file>
+            <file>file:/var/www/myscript/js/controllers/app.js</file>
+            <file>file:/var/www/myscript/protected/views/mail/trash.php</file>
+            <file>file:/var/www/myscript/protected/models/UserHasMail.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/draft.php</file>
+            <file>file:/var/www/myscript/js/controllers/userController.js</file>
+            <file>file:/var/www/myscript/protected/views/layouts/footer.php</file>
+            <file>file:/var/www/myscript/protected/controllers/MailController.php</file>
+            <file>file:/var/www/myscript/protected/models/MailConversation.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/sidemenu.php</file>
+            <file>file:/var/www/myscript/protected/controllers/UserController.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/index.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/list.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/compose.php</file>
+            <file>file:/var/www/myscript/protected/views/layouts/header.php</file>
+            <file>file:/var/www/myscript/protected/views/mail/view.php</file>
+            <file>file:/var/www/myscript/protected/config/local.php</file>
+            <file>file:/var/www/myscript/js/controllers/mailController.js</file>
+            <file>file:/var/www/myscript/protected/components/BaseClass.php</file>
+        </group>
+    </open-files>
+</project-private>

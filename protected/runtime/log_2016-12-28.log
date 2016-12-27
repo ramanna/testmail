@@ -1,0 +1,62 @@
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "log" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "request" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/myscript/protected/views/layouts/column1.php (2)
+in /var/www/myscript/protected/controllers/SiteController.php (14)
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "session" application component
+in /var/www/myscript/protected/views/layouts/header.php (37)
+in /var/www/myscript/protected/views/layouts/main.php (1)
+in /var/www/myscript/protected/views/layouts/column1.php (6)
+2016/12/28 00:39:22 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/myscript/protected/controllers/SiteController.php (14)
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:35 [trace] [system.CModule] Loading "log" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:35 [trace] [system.CModule] Loading "request" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:35 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:36 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:39:36 [trace] [system.CModule] Loading "errorHandler" application component
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/myscript/protected/components/BaseClass.php (9)
+in /var/www/myscript/protected/controllers/MailController.php (11)
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/myscript/protected/views/layouts/column1.php (2)
+in /var/www/myscript/protected/controllers/SiteController.php (14)
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/myscript/protected/views/layouts/header.php (37)
+in /var/www/myscript/protected/views/layouts/main.php (1)
+in /var/www/myscript/protected/views/layouts/column1.php (6)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/myscript/protected/controllers/SiteController.php (14)
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/myscript/index.php (23)
+2016/12/28 00:40:03 [trace] [system.CModule] Loading "errorHandler" application component
